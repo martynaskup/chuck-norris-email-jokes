@@ -11,7 +11,7 @@ const UserNameList = ({ users, handleChange }) => {
   });
 
   const handleUserChange = e => {
-    handleChange(e.target.value);
+    handleChange(Number(e.target.value));
   };
 
   return (
