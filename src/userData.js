@@ -1,4 +1,4 @@
-export const useeData = [
+const userData = [
   {
     id: 1,
     userId: 1,
@@ -58,3 +58,5 @@ export const useeData = [
     emails: []
   }
 ];
+
+export default userData;
