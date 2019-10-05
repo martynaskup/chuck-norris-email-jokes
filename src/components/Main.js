@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import UserNameList from './UserNameList';
 import userData from '../userData';
+import EmailList from './emails/EmailList';
+import emailData from './emails/emailData';
 
 const Main = () => {
   const [users, setUsers] = useState([]);
@@ -11,25 +13,17 @@ const Main = () => {
     setUsers(userData);
   }, []);
 
-  const allEmails = id => {
-    const emailList = [];
-    users
-      .filter(user => id === user.userId)
-      .forEach(user => {
-        user.emails.map(email => emailList.push(email));
-      });
-    setEmails(emailList);
-  };
-
   const handleUserChange = id => {
     setUserId(id);
-    allEmails(id);
+    const allEmails = emailData(id, users, userId);
+    setEmails(allEmails);
   };
 
   return (
     <main role='main' className='App-main'>
       <h1>Choose the user</h1>
       <UserNameList users={users} handleChange={handleUserChange} />
+
       <p>
         {userId
           ? `This user has
@@ -41,11 +35,9 @@ const Main = () => {
           : ''}
       </p>
 
-      {/* *************show the user email list sorted by domain + email name***********
-      <h3>
-        Email list of the User <strong>XYZ</strong>
-      </h3>
-      */}
+      {/* *************show the user email list sorted by domain + email name*********** */}
+      <h3>Email list of the User</h3>
+      <EmailList emails={emails} userId={userId} />
     </main>
   );
 };
