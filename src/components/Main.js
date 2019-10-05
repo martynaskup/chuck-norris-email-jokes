@@ -8,6 +8,7 @@ const Main = () => {
   const [users, setUsers] = useState([]);
   const [userId, setUserId] = useState('');
   const [emails, setEmails] = useState([]);
+  const [showEmails, setShowEmails] = useState(false);
 
   useEffect(() => {
     setUsers(userData);
@@ -18,26 +19,31 @@ const Main = () => {
     const allEmails = emailData(id, users, userId);
     setEmails(allEmails);
   };
-
+  const handleEmailList = () => {
+    setShowEmails(!showEmails);
+  };
   return (
     <main role='main' className='App-main'>
       <h1>Choose the user</h1>
       <UserNameList users={users} handleChange={handleUserChange} />
-
       <p>
         {userId
           ? `This user has
             ${
               emails.length === 1
-                ? '1 email address'
-                : `${emails.length} email addresses`
+                ? '1 valid email address'
+                : `${emails.length} valid email addresses`
             }`
           : ''}
       </p>
 
       {/* *************show the user email list sorted by domain + email name*********** */}
-      <h3>Email list of the User</h3>
-      <EmailList emails={emails} userId={userId} />
+      <input
+        type='button'
+        value={!showEmails ? 'Show the email list' : 'Hide the email list'}
+        onClick={handleEmailList}
+      />
+      {showEmails ? <EmailList emails={emails} userId={userId} /> : null}
     </main>
   );
 };

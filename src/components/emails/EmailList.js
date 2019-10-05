@@ -2,7 +2,7 @@ import React from 'react';
 
 const EmailList = ({ emails, userId }) => {
   const displayedEmails = emails.map((email, index) => (
-    <li key={index} userId={userId} style={{ display: 'block' }}>
+    <li key={index} userid={userId} style={{ display: 'block' }}>
       {email}
     </li>
   ));
