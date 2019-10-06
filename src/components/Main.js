@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import UserNameList from './UserNameList';
-import userData from '../userData';
+import UserNameList from './users/UserNameList';
+import userData from './users/userData';
 import EmailList from './emails/EmailList';
 import emailData from './emails/emailData';
 
