@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/chuck-norris-email-jokes/static/css/main.4f9f1923.chunk.css",
+    "main.js": "/chuck-norris-email-jokes/static/js/main.9a548b24.chunk.js",
+    "main.js.map": "/chuck-norris-email-jokes/static/js/main.9a548b24.chunk.js.map",
+    "runtime-main.js": "/chuck-norris-email-jokes/static/js/runtime-main.0d71022a.js",
+    "runtime-main.js.map": "/chuck-norris-email-jokes/static/js/runtime-main.0d71022a.js.map",
+    "static/js/2.b5a2300d.chunk.js": "/chuck-norris-email-jokes/static/js/2.b5a2300d.chunk.js",
+    "static/js/2.b5a2300d.chunk.js.map": "/chuck-norris-email-jokes/static/js/2.b5a2300d.chunk.js.map",
+    "index.html": "/chuck-norris-email-jokes/index.html",
+    "precache-manifest.0c66a99536765438bbf6c0cb3cad82eb.js": "/chuck-norris-email-jokes/precache-manifest.0c66a99536765438bbf6c0cb3cad82eb.js",
+    "service-worker.js": "/chuck-norris-email-jokes/service-worker.js",
+    "static/css/main.4f9f1923.chunk.css.map": "/chuck-norris-email-jokes/static/css/main.4f9f1923.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d71022a.js",
+    "static/js/2.b5a2300d.chunk.js",
+    "static/css/main.4f9f1923.chunk.css",
+    "static/js/main.9a548b24.chunk.js"
+  ]
+}
