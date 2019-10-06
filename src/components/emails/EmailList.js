@@ -9,7 +9,7 @@ const EmailList = ({ emails, userId }) => {
 
   return (
     <div>
-      <ul>{displayedEmails}</ul>
+      <ul style={{ padding: '0' }}>{displayedEmails}</ul>
     </div>
   );
 };

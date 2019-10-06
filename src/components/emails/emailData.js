@@ -1,4 +1,4 @@
-const emailData = (id, users, userId) => {
+const emailData = (id, users) => {
   const RegExp = /^[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.([a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]*[a-zA-Z0-9]))*[@](?:[a-zA-Z]+(?:([a-zA-Z0-9-]*[a-zA-Z0-9]))*\.)+[a-zA-Z]+(?:([a-zA-Z0-9-]*[a-zA-Z0-9]))*$/;
 
   // list of valid email addresses
@@ -23,7 +23,7 @@ const emailData = (id, users, userId) => {
     return groups;
   }, {});
 
-  // sort the emails grouped by domain and name
+  // sort the emails by domain and name
   const arrayDomain = Object.keys(groupedByDomain).sort();
   const sortByDomain = [];
   for (let domain of arrayDomain) {

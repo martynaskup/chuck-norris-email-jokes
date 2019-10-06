@@ -16,12 +16,14 @@ const Main = () => {
 
   const handleUserChange = id => {
     setUserId(id);
-    const allEmails = emailData(id, users, userId);
+    const allEmails = emailData(id, users);
     setEmails(allEmails);
   };
+
   const handleEmailList = () => {
     setShowEmails(!showEmails);
   };
+
   return (
     <main role='main' className='App-main'>
       <h1>Choose the user</h1>
@@ -36,8 +38,6 @@ const Main = () => {
             }`
           : ''}
       </p>
-
-      {/* *************show the user email list sorted by domain + email name*********** */}
       <input
         type='button'
         value={!showEmails ? 'Show the email list' : 'Hide the email list'}
