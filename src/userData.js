@@ -5,6 +5,7 @@ const userData = [
     userName: 'Katrin Papelus',
     emails: [
       'user1@maindomain1.com',
+      'zazulini@maindomain1.com',
       'kahtrinpap@maindomain1.com',
       'userus1@mainidomainit.co.uk',
       'usir342.emailus.com'
@@ -16,9 +17,11 @@ const userData = [
     userName: 'Steve Lincoln',
     emails: [
       'lincolniS@maindomain1.com',
+      'stevesemail@emailmesteve.it.com',
       'userus223@mainidomainit.co.uk',
       'usir3jjf.emailmesteve.com',
-      'usir3jjf@emailmesteve.it.com'
+      'usir3jjf@emailmesteve.it.com',
+      'myemail@emailmesteve.it.com'
     ]
   },
   {
@@ -27,6 +30,7 @@ const userData = [
     userName: 'Paulo Colantonio',
     emails: [
       'paulo.colantonio4533244@maindomainico.com',
+      'paulo.colantonio-4533244@maindomainico.com',
       'user_colanto@mainidomainit.it.uk'
     ]
   },
@@ -55,7 +59,7 @@ const userData = [
     id: 6,
     userId: 6,
     userName: 'Miki Maus',
-    emails: []
+    emails: ['mikimausi.mikiamusi.com']
   }
 ];
 
