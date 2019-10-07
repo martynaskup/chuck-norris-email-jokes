@@ -13,7 +13,7 @@ A JavaScript, React and Node.js based app to count and display valid user email 
 <ul>
   <li>JavaScript</li>
   <li>React</li>
-  <li><em>Node.js</em>(</li>
+  <li><em>Node.js</em></li>
 </ul>
 
 
