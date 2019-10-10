@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import UserNameList from './users/UserNameList';
-import userData from './users/userData';
 import EmailList from './emails/EmailList';
 import emailData from './emails/emailData';
 
@@ -11,7 +10,10 @@ const Main = () => {
   const [showEmails, setShowEmails] = useState(false);
 
   useEffect(() => {
-    setUsers(userData);
+    fetch('http://localhost:8080/api/users')
+      .then(response => response.json())
+      .then(data => setUsers(data))
+      .catch(err => console.log(err));
   }, []);
 
   const handleUserChange = id => {
