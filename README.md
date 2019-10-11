@@ -13,9 +13,9 @@ A JavaScript, React and Node.js based app to count and display valid user email 
 <ul>
   <li>JavaScript</li>
   <li>React</li>
+  <li>Styled-components</li>
   <li><em>Node.js</em></li>
 </ul>
-
 
 <h3><em>Planned Features and Tech Stack</em></h3>
 <ul>
