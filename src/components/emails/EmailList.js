@@ -23,9 +23,13 @@ const EmailList = ({ emails, userId }) => {
     </Li>
   ));
 
+  const noEmails = userId
+    ? `There are no valid email addresses for this user.`
+    : `Please choose the user to show his email address list.`;
+
   return (
     <Fragment>
-      <Ul>{displayedEmails}</Ul>
+      <Ul>{emails.length ? displayedEmails : noEmails}</Ul>
     </Fragment>
   );
 };
