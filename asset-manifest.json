@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/chuck-norris-email-jokes/static/css/main.4f9f1923.chunk.css",
-    "main.js": "/chuck-norris-email-jokes/static/js/main.9a548b24.chunk.js",
-    "main.js.map": "/chuck-norris-email-jokes/static/js/main.9a548b24.chunk.js.map",
+    "main.css": "/chuck-norris-email-jokes/static/css/main.d30d9a46.chunk.css",
+    "main.js": "/chuck-norris-email-jokes/static/js/main.f58815c0.chunk.js",
+    "main.js.map": "/chuck-norris-email-jokes/static/js/main.f58815c0.chunk.js.map",
     "runtime-main.js": "/chuck-norris-email-jokes/static/js/runtime-main.0d71022a.js",
     "runtime-main.js.map": "/chuck-norris-email-jokes/static/js/runtime-main.0d71022a.js.map",
-    "static/js/2.b5a2300d.chunk.js": "/chuck-norris-email-jokes/static/js/2.b5a2300d.chunk.js",
-    "static/js/2.b5a2300d.chunk.js.map": "/chuck-norris-email-jokes/static/js/2.b5a2300d.chunk.js.map",
+    "static/js/2.571db940.chunk.js": "/chuck-norris-email-jokes/static/js/2.571db940.chunk.js",
+    "static/js/2.571db940.chunk.js.map": "/chuck-norris-email-jokes/static/js/2.571db940.chunk.js.map",
     "index.html": "/chuck-norris-email-jokes/index.html",
-    "precache-manifest.0c66a99536765438bbf6c0cb3cad82eb.js": "/chuck-norris-email-jokes/precache-manifest.0c66a99536765438bbf6c0cb3cad82eb.js",
+    "precache-manifest.5b1f16e09370ec9d799fbca2eb69125b.js": "/chuck-norris-email-jokes/precache-manifest.5b1f16e09370ec9d799fbca2eb69125b.js",
     "service-worker.js": "/chuck-norris-email-jokes/service-worker.js",
-    "static/css/main.4f9f1923.chunk.css.map": "/chuck-norris-email-jokes/static/css/main.4f9f1923.chunk.css.map"
+    "static/css/main.d30d9a46.chunk.css.map": "/chuck-norris-email-jokes/static/css/main.d30d9a46.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.0d71022a.js",
-    "static/js/2.b5a2300d.chunk.js",
-    "static/css/main.4f9f1923.chunk.css",
-    "static/js/main.9a548b24.chunk.js"
+    "static/js/2.571db940.chunk.js",
+    "static/css/main.d30d9a46.chunk.css",
+    "static/js/main.f58815c0.chunk.js"
   ]
 }

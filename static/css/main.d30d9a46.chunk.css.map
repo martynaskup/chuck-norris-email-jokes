@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,iBAGE,qBACF,CAEA,KACE,QAAS,CACT,wBAAyB,CACzB,UAAc,CACd,qBACF","file":"main.d30d9a46.chunk.css","sourcesContent":["*,\r\n*::before,\r\n*::after {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  background-color: #689ac4;\r\n  color: #000000;\r\n  font-family: system-ui;\r\n}\r\n"]}
