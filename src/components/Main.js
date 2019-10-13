@@ -43,7 +43,7 @@ const Main = () => {
   };
 
   const handleRandomJoke = () => {
-    fetch('http://api.icndb.com/jokes/random')
+    fetch('https://api.icndb.com/jokes/random')
       .then(response => response.json())
       .then(response => setRandomJoke(response.value.joke))
       .catch(err => console.log(err));
