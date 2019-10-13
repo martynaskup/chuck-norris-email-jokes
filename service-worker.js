@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chuck-norris-email-jokes/precache-manifest.5b1f16e09370ec9d799fbca2eb69125b.js"
+  "/chuck-norris-email-jokes/precache-manifest.ae22f94e3a847ae5e2d3a53f742529ba.js"
 );
 
 self.addEventListener('message', (event) => {
