@@ -26,7 +26,7 @@ const Main = () => {
   const [RandomJoke, setRandomJoke] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/users')
+    fetch('https://safe-coast-81489.herokuapp.com/users')
       .then(response => response.json())
       .then(data => setUsers(data))
       .catch(err => console.log(err));
