@@ -1,7 +1,7 @@
 {
   "name": "chuck-norris-email-jokes",
   "version": "0.1.0",
-  "homepage": "https://snikerslala.github.io/chuck-norris-email-jokes",
+  "homepage": "https://martynaskup.github.io/chuck-norris-email-jokes",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
